@@ -17,7 +17,7 @@ https://code.visualstudio.com/download
 10. Live Server Preview
 11. Auto Complete Tag
 
-# Buổi 2: Bài 2 - Cấu trúc của trang HTML và các thẻ:
+# Buổi 2: Bài 2 - Cấu trúc của trang HTML và các thẻ - phần 1
 
 ### 1. Giới thiệu về DOM
 - DOM (Document Object Model) là bao gồm những thẻ, phần tử để cấu thành lên trang web của mình.
@@ -47,3 +47,10 @@ https://htmlreference.io/
 
 - Thẻ inline có độ rộng bằng nội dung nó chứa.
 - Nếu nhiều thẻ inline thì nó sẽ nằm trên cùng 1 hàng với nhau.
+
+### 6. Bài tập về nhà:
+- Vào trang web: https://validator.w3.org/
+- Tìm hiểu thêm về khái niệm các thẻ khác nhau: div, span, img,...
+- Đọc và làm qua bài lab 2.
+
+# Buổi 2: Bài 2 - Cấu trúc của trang HTML và các thẻ - phần 2
