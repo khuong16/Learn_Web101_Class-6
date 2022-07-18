@@ -1,9 +1,9 @@
-# 1. Buổi 1: Bài 1- Khái niệm cơ bản và công cụ xây dựng website:
+# Buổi 1: Bài 1- Khái niệm cơ bản và công cụ xây dựng website:
 
-## 1. Cài đặt công cụ Visual Studio Code:
+### 1. Cài đặt công cụ Visual Studio Code:
 https://code.visualstudio.com/download
 
-## 2. Các extensions nên cài: 
+### 2. Các extensions nên cài: 
 
 1. Prettier
 2. Material Icon Theme
@@ -17,28 +17,28 @@ https://code.visualstudio.com/download
 10. Live Server Preview
 11. Auto Complete Tag
 
-# 2. Buổi 2: Bài 2 - Cấu trúc của trang HTML và các thẻ:
+# Buổi 2: Bài 2 - Cấu trúc của trang HTML và các thẻ:
 
-## 1. Giới thiệu về DOM
+### 1. Giới thiệu về DOM
 - DOM (Document Object Model) là bao gồm những thẻ, phần tử để cấu thành lên trang web của mình.
 - Nó sẽ có quy chiếu dạng hình cây, sẽ có các nhiều nhánh.
 
-## 2. Kiểm tra tính xác thực của code trong trang web:
+### 2. Kiểm tra tính xác thực của code trong trang web:
 https://validator.w3.org/
 
-## 3. Giới thiệu về các thẻ:
+### 3. Giới thiệu về các thẻ:
 - Các thẻ sẽ có 3 phần: phần mở thẻ, phần nội dung của thẻ và phần đóng thẻ.
 
 Ngoài ra sẽ có trường hợp đặc biệt là thẻ tự đóng (không cần có thẻ đóng)
 Ví dụ: thẻ img => hiển thị nội dung hình ảnh.
 
-## 4. Thuộc tính của thẻ:
+### 4. Thuộc tính của thẻ:
 - Thuộc tính của thẻ giống như là những đặc trưng của thẻ đó mang.
 - Được biểu thị trong thẻ mở dưới dạng là: name="value"
 Ví dụ: class = "subject"
        id = "title"
 
-## 5. Phân biệt thẻ block và inline
+### 5. Phân biệt thẻ block và inline
 - Xem các thẻ khác trong HTML có, và phân biệt được thẻ nào là thẻ inline, thẻ nào là thẻ block thì sẽ vào trang web là:
 https://htmlreference.io/
 
