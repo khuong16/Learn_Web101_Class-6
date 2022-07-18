@@ -17,6 +17,10 @@ https://code.visualstudio.com/download
 10. Live Server Preview
 11. Auto Complete Tag
 
+### 3. Khái niệm về HTML:
+- HTML là ngôn ngữ đánh dấu siêu văn bản, KHÔNG PHẢI NGÔN NGỮ LẬP TRÌNH.
+- Được sử dụng để xây dựng cơ bản một trang web.
+
 # Buổi 2: Bài 2 - Cấu trúc của trang HTML và các thẻ - phần 1
 
 ### 1. Giới thiệu về DOM
@@ -48,9 +52,9 @@ https://htmlreference.io/
 - Thẻ inline có độ rộng bằng nội dung nó chứa.
 - Nếu nhiều thẻ inline thì nó sẽ nằm trên cùng 1 hàng với nhau.
 
-### 6. Bài tập về nhà:
+### 6. Bài tập về nhà buổi 2:
 - Vào trang web: https://validator.w3.org/
 - Tìm hiểu thêm về khái niệm các thẻ khác nhau: div, span, img,...
 - Đọc và làm qua bài lab 2.
 
-# Buổi 2: Bài 2 - Cấu trúc của trang HTML và các thẻ - phần 2
+# Buổi 3: Bài 2 - Cấu trúc của trang HTML và các thẻ - phần 2
