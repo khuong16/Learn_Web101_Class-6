@@ -14,12 +14,15 @@
         1. class: có thể trùng nhau, có nhiều tên trong cùng class
         2. id: KHÔNG được trùng nhau, và chỉ duy nhất có 1 tên id
     -->
+    <!-- SEO -->
+
     <div class="desc desc_1 desc_2" id="desc_id">
-        <span class="span span_1 span_2" id="span_id">Mô tả đây là thẻ span</span>
+        <span class="desc span_1 span_2" id="span_id">Mô tả đây là thẻ span</span>
     </div>
 
     <!-- Thẻ ul nó sẽ mô tả là đây là bắt đầu cho một danh sách -->
     <!-- Thẻ li sẽ mô tả đây là từng phần tử trong danh sách -->
+    <!-- Thẻ ul là thẻ danh sách không có thứ tự và nó sẽ hiển thị dấu "." ở trước mỗi phần tử-->
     <ul>
         <li>Hương</li>
         <li>Nga</li>
@@ -27,12 +30,26 @@
         <li>Hung</li>
     </ul>
 
+    <!-- Thẻ ol là thẻ danh sách có thứ tự, hiển thị các số trước từng phần tử: 1,2,3,4,..-->
     <ol>
         <li>Hương</li>
         <li>Nga</li>
         <li>Tuấn</li>
         <li>Hung</li>
     </ol>
+
+    <!-- Thẻ br là thẻ xuống dòng, nó sẽ áp dụng tốt cho thẻ inline -->
+    <!-- Thẻ hr là thẻ cũng xuống dòng, nhưng nó sẽ tạo thêm một dấu gạch ngang dài nữa, cũng áp dụng cho thẻ inline-->
+    <span>Inline này 1</span>
+    <br>
+    <span>Inline này 2</span>
+    <hr>
+    <span>Inline này 3</span>
+    <br>
+
+    <!-- Thẻ a là thẻ đường dẫn, nó sẽ đi đến đường dẫn mà mọi người yêu cầu -->
+    <!-- name ="value"-->
+    <a href="https://www.youtube.com/">Ấn vào đây để vào youtube</a>
 
 </body>
 </html>

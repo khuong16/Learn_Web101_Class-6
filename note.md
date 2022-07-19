@@ -53,8 +53,9 @@ https://htmlreference.io/
 - Nếu nhiều thẻ inline thì nó sẽ nằm trên cùng 1 hàng với nhau.
 
 ### 6. Bài tập về nhà buổi 2:
-- Vào trang web: https://validator.w3.org/
+- Vào trang web: https://htmlreference.io/
 - Tìm hiểu thêm về khái niệm các thẻ khác nhau: div, span, img,...
 - Đọc và làm qua bài lab 2.
 
 # Buổi 3: Bài 2 - Cấu trúc của trang HTML và các thẻ - phần 2
+
