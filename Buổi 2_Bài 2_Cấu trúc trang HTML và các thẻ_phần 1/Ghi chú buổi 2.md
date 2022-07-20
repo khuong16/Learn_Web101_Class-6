@@ -1,26 +1,3 @@
-# Buổi 1: Bài 1- Khái niệm cơ bản và công cụ xây dựng website:
-
-### 1. Cài đặt công cụ Visual Studio Code:
-https://code.visualstudio.com/download
-
-### 2. Các extensions nên cài: 
-
-1. Prettier
-2. Material Icon Theme
-3. Live Server
-4. Bracket Pair Colorizer
-5. Highlight Matching Tag
-6. SCSS Intellisence
-7. htmltagwrap
-8. HTML to CSS Autocompletion
-9. HTML Snippets
-10. Live Server Preview
-11. Auto Complete Tag
-
-### 3. Khái niệm về HTML:
-- HTML là ngôn ngữ đánh dấu siêu văn bản, KHÔNG PHẢI NGÔN NGỮ LẬP TRÌNH.
-- Được sử dụng để xây dựng cơ bản một trang web.
-
 # Buổi 2: Bài 2 - Cấu trúc của trang HTML và các thẻ - phần 1
 
 ### 1. Giới thiệu về DOM
@@ -56,6 +33,3 @@ https://htmlreference.io/
 - Vào trang web: https://htmlreference.io/
 - Tìm hiểu thêm về khái niệm các thẻ khác nhau: div, span, img,...
 - Đọc và làm qua bài lab 2.
-
-# Buổi 3: Bài 2 - Cấu trúc của trang HTML và các thẻ - phần 2
-
