@@ -51,6 +51,9 @@ Ví dụ: icon quả táo, icon danh bạ, icon mặt người,..
 - Bước 2: Sử dụng những icon mà bạn mong muốn:
 Ví dụ: "<i class="fa fa-camera-retro"></i>"
 
+3. Tìm kiếm icon ở trong trang web:
+https://fontawesome.com/v4/icons/
+
 ### 5. Hyperlink (Siêu liên kết)
 
 1. Định nghĩa Hyperlink là gì:
