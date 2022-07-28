@@ -6,13 +6,70 @@
 </head>
 <body>
     
+    <!-- Video and Audio -->
     <video src=""></video>
 
-    <video width="320" height="240" controls>
-        <source src="movie.mp4" type="video/mp4">
+    <!-- <video width="320" height="240" controls>
+        <source src="xyz.mp4" type="video/mp4">
         <source src="movie.ogg" type="video/ogg">
       Trình duyệt của bạn không hỗ trợ thẻ video.
-    </video>
+    </video> -->
+
+    <!-- table -->
+    <!-- thẻ table: cho biết đây là phạm vi của thẻ để hiển thị bảng -->
+    <table border="1">
+        <!-- tr: thẻ hiển thị số hàng của mọi người, có 3 hàng thì có 3 thẻ tr tương ứng,..-->
+        <tr>
+            <!-- th là thẻ tiêu đề của bảng, cũng giống như thẻ td -->
+            <th>Column One</th>
+            <th>Column Two</th>
+            <th>Column Three</th>
+        </tr>
+        <tr>
+            <!-- td: thẻ hiển thị số cột trong 1 hàng. -->
+            <td>One</td>
+            <td>Two</td>
+            <td>Three</td>
+        </tr>
+        <tr>
+            <td>Four</td>
+            <td>Five</td>
+            <td>Six</td>
+        </tr>
+        <tr>
+            <td>Seven</td>
+            <td>Eight</td>
+            <td>
+                Nine
+            </td>
+        </tr>
+    </table>
+
+    <br><br>
+
+    <!-- row: hàng, chiều ngang -->
+    <!-- col: cột, chiều dọc -->
+
+    <!-- rowspan: thực hiện gộp các hàng với nhau -->
+    <!-- VD: rowspan=3 => hợp nhát 3 ô trên cùng 1 cột (gộp hàng). Ngược lại với colspan -->
+
+    <table border="3">
+        <tr>
+            <th>Child's Name: </th>
+            <th>Parent's Name: </th>
+        </tr>
+        <tr>
+            <td rowspan="2">Catherine</td>
+            <td>Michael McCarthy</td>
+        </tr>
+        <tr>
+            <td>Colleen McCarthy</td>
+        </tr>
+        <tr>
+            <td>Maggie</td>
+            <td>Sheila McGee</td>
+        </tr>
+    </table>
 
 </body>
 </html>
