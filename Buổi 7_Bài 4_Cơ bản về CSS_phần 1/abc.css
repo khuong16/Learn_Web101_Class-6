@@ -1,0 +1,13 @@
+/* selector: nó là những cặp thẻ của mọi người sử dụng
+    VD: h1, p, div, a, img,...
+    selector {
+        property: value;
+        property: những thuộc tính của CSS. VD: color, background-color,..
+        value: những giá trị tương ứng với CSS đấy. VD: red, green
+
+}  */
+
+a {
+    color: darkmagenta;
+    background-color: deeppink;
+}
