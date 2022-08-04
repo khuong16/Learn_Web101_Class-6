@@ -7,7 +7,29 @@
 
 }  */
 
+
+/**
+    giá trị màu sắc thì mọi người có kiểu biểu diễn giá trị màu sắc.(3 biểu diễn)
+    1. Ghi thẳng tên màu: orange, red, blue, green,..
+    2. Biểu diễn qua mã màu: #FFFF00,...
+    3. Biểu diễn qua rgb (opacity: độ trong suốt): 0 -> 1. Mặc định là 1, màu sắc mọi người nhìn đc.
+*/
+
 a {
     color: darkmagenta;
-    background-color: deeppink;
+    background-color: rgba(20, 90, 255, 0.442);
+}
+
+p {
+    /* font-weight: dùng để CSS cho kiểu chữ theo kiểu chữ đậm,*/
+    font-weight: bold;
+
+    /* font-size: dùng để CSS cho kích thước chữ. Đơn vị đo: px */
+    font-size: 30px;
+
+    /* font-style: dùng để CSS cho kiểu chữ theo kiểu in nghiêng */
+    font-style: italic;
+
+    /* font-family: dùng để CSS cho kiểu chữ: kiểu chữ thuộc về dạng gì. A, B, C,..*/
+    font-family: Arial, Helvetica, sans-serif;
 }
