@@ -32,4 +32,10 @@ p {
 
     /* font-family: dùng để CSS cho kiểu chữ: kiểu chữ thuộc về dạng gì. A, B, C,..*/
     font-family: Arial, Helvetica, sans-serif;
+
+    /* Chỉnh vị trí cho đoạn chữ: left, right, centern, justify */
+    text-align: center;
+
+    /* Chiều cao dòng */
+    line-height: 200%;
 }
