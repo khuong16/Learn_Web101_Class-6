@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Selectors: những "cái" mà mọi người đưa ra để CSS (trang trí)
+            1. Tag (thẻ): h1,h2, h3, div, a, ul,li,...
+            2. class: heading, title, desc,... (nhiều tên trong class)
+            3. id: heading, title, desc,... (chỉ có duy nhất 1 tên)
+        */
+
+        /*
+            CSS class: bắt đầu bằng dấu "." + tên class
+            CSS id: bắt đầu bằng dấu "#" + tên id
+        */
+        h2 {
+          
+        }
+
+        h1 {
+
+        }
+
+        div {
+
+        }
+
+        .heading {
+            color: red;
+            background-color: aqua;
+        }    
+
+        #title {
+            color: brown;
+            font-size: 50px;
+            font-weight: bold;
+            border: 2px solid yellow;
+        }
+
+        /* CSS toàn bộ trang web: body, div, h2, h1,... */
+        * {
+            font-weight: bold;
+        }
+
+        a {
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Tên thẻ [thuộc tính="giá trị"] */
+        a[href="facebook.com"] {
+            color: greenyellow;
+        }
+
+        a[href="instagram.com"] {
+           border: 3px solid brown;
+           
+           padding-top: 10px;
+           padding-right: 20px;
+           padding-bottom: 30px;
+           padding-left: 40px;
+
+           padding: 10px 20px 30px 40px;
+           text-align: center;
+        }
+
+        /*
+            padding: 4 giá trị
+            1. padding-top
+            2. padding-right
+            3. padding-bottom
+            4. padding-left
+
+            Tương tự với margin: 
+            margin-top margin-right margin-bottom margin-left
+        */
+
+        /* 
+            Tóm tắt: CSS Selectors: 3 kiểu: thẻ, class, id.
+            1. Tag: Ghi tên thẻ.
+            2. Class: Bắt đầu bằng dấu "." + tên class
+            3. Id: Bắt đầu bằng dấu "#" + tên id
+
+            CSS Selectors: *, tên thẻ[thuộc tính="giá trị"]
+        */
+
+        .feature-title {
+            text-align: center;
+            font-size: 65px;
+            font-weight: 200;
+        }
+    </style>
+</head>
+<body>
+    <!-- 3 cách thực hiện CSS -->
+    <!-- CSS Inline -->
+    <!-- CSS Internal -->
+    <!-- CSS External -->
+    <h2 class="heading">Xin chào các bạn lớp 6</h2>
+    <h2>Xin chào các bạn lớp 6</h2>
+    <h2 id="title">Xin chào các bạn lớp 6</h2>
+    <h2 class="heading">Xin chào các bạn lớp 6</h2>
+    <h2>Xin chào các bạn lớp 6</h2>
+
+    <!-- class và id -->
+    <h1 class="bear bear1 bear2 bear3" id="name_bear">Tên của con gấu</h1>
+    <div class="chocolate chocolate-coconut" id="name_chocolate">
+
+    </div>
+    <p>Thẻ mô tả đoạn văn</p>
+
+    <a href="facebook.com" class="facebook">Bấm vào đây vô facebook</a>
+    <a href="instagram.com">Bấm vào đây vô instagram</a>
+    <a href="youtube.com">Bấm vào đây vô youtube</a>
+
+    <div class="feature">
+        <div class="feature-image">
+            <img src="#" alt="">
+        </div>
+        <div class="feature-description">
+            <h2 class="feature-title" id="">
+                Môn học vật lý
+            </h2>
+        </div>
+    </div>
+
+    <!-- Chrome, Cốc cốc, IE, FireFox, Opera,... -->
+</body>
+</html>
