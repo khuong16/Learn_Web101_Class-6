@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS Selectors</title>
+    <style>
+      .picture {
+        width: 200px;
+        height: 200px;
+        border: 2px solid green;
+        /* Border-width Border-style Border-color */
+        /* background-image: url(Đường dẫn) */
+        background-image: url(https://images.unsplash.com/photo-1660554042520-db71c7fea8d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+        /*
+                VD: ảnh: 500x500
+                Khung ảnh hiển thị: 200x200 => hiện tượng vỡ ảnh (ảnh ko hiển thị đủ)
+                background-size: cover => hiển thị đủ hình ảnh tương ứng.
+            */
+        background-size: cover;
+        /* Xét màu nền của cái khung tương ứng */
+        /* Mặc định opacity: 1 
+                rgb(red, green, blue)
+                => rgb(red, green, blue, opacity): 1 -> 0 
+            */
+        background-color: rgba(0, 0, 255, 0.218);
+      }
+
+      img {
+        background-repeat: no-repeat;
+      }
+
+      /* first-letter: lấy ra chữ đầu tiên trong câu đấy */
+      p::first-letter {
+        color: #ff0000;
+        font-size: xx-large;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Xin chào các bạn</h1>
+    <p>Đoạn văn mô tả</p>
+
+    <div class="picture"></div>
+
+    <img
+      src="https://images.unsplash.com/photo-1660554042520-db71c7fea8d1?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
+      alt=""
+    />
+  </body>
+</html>
