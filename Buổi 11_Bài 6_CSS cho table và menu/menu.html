@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu</title>
+
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+
+      nav {
+        border: 1px solid #06425c;
+        color: #06425c;
+        background: #ffffff;
+        padding-left: 20px;
+      }
+
+      nav a {
+        display: inline-block;
+        line-height: 50px;
+        height: 60px;
+        color: #ffffff;
+        background-color: #486b02;
+        text-decoration: none;
+        margin: 2px 5px 2px 5px;
+        padding: 10px 20px 10px 20px;
+        border-radius: 25px;
+      }
+
+      .current {
+        background-color: #800000;
+      }
+
+      nav a:hover {
+        color: #000000;
+        border-radius: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Khi nhắc đến khái niệm "MENU" thì nó sẽ ứng với thẻ ul - li - a -->
+
+    <!-- HTML -->
+    <div class="menu">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Products</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">People</a></li>
+      </ul>
+    </div>
+
+    <!-- HTML5: code mạch lạc hơn, rõ ràng -->
+    <!-- thẻ nav: chứa những cái link liên kết dành cho menu -->
+    <nav>
+      <a href="#">Home</a>
+      <a href="#" class="current">Products</a>
+      <a href="#">About</a>
+      <a href="#">People</a>
+    </nav>
+  </body>
+</html>
