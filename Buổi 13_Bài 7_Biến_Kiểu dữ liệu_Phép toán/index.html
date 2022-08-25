@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Học về Javascript</title>
+  </head>
+  <body>
+    <!-- Trang web hoàn thiện:
+        1. HTML: khung xương của trang web. (sử dụng các cặp thẻ,.. )
+        2. CSS: 'trang trí' trang web (đổ màu, kích thước, sắp xếp bố cục).
+        3. Javascript: 'hoạt động' của trang web (thay đổi hình ảnh, validate form: xác thực văn bản.)
+    -->
+
+    <!-- DOM: cấu trúc hình cây, nó gồm các thẻ tương ứng -->
+
+    <h1 style="color: red;" id="heading">Xin chào các bạn</h1>
+    <p>Đây là thẻ mô tả</p>
+
+    <!-- Javscript nó sẽ được load cuối cùng khi trang web được tải lên -->
+    <script>
+      // 1. alert
+      // Mục đích: Hiển thị ra thông báo ra ngoài màn hình là Hello world
+      // Cú pháp: alert(message)
+      //alert("Hello world");
+
+      // 2. prompt
+      // Mục đích: Hiển thị thông báo nhưng nó sẽ đi kèm với ô nhập
+      // Cú pháp: prompt(message)
+      //prompt("Mọi người hãy nhập gì đó");
+
+      // 3. document.write
+      // Mục đích; Hiển thị chữ ra ngoài trang web
+      // Cú pháp: document.write(message)
+      document.write("Time to learn JavaScript");
+
+      // 4. innerHTML
+      // Mục đích: thay đổi nội dung của 1 thẻ nào đó (h1, h2, p, span,..)
+      // Cú pháp: document.getElementById("id_name").innerHTML
+      document.getElementById("heading").innerHTML = "Quả dưa hấu";
+
+      // 5. console.log
+      // Mục đích: hiển thị thông báo ra trong tab "console"
+      // Cú pháp: console.log(message)
+      console.log("Đây là lớp số 6 học Javascript");
+      console.log("Tớ là bạn của mọi người");
+      console.log("Quả dưa leo nàyyy");
+    </script>
+  </body>
+</html>
